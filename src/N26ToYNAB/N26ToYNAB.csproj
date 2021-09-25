@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <Title>N26ToYNAB</Title>
+        <Authors>Jan Funke - Tyr3al</Authors>
+        <Description>Simple cli tool to convert N26 CSV files to YNAB compatible CSV files </Description>
+        <PackageProjectUrl>https://github.com/Tyr3al/N26ToYNAB</PackageProjectUrl>
+        <Company>Jan Funke - Tyr3al</Company>
+        <Version>0.1.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.8.0" />
+      <PackageReference Include="CsvHelper" Version="27.1.1" />
+    </ItemGroup>
+
+</Project>
