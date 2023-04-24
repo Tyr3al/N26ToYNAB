@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Usage information into CLI help output
+- Serilog as logger
 
 ### Changed
 - Upgraded to .NET 7.0
@@ -17,4 +18,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 0.1.0 - 2021-09-25
 ### Added
-- Inital release with capability of converting csv files
+- Initial release with capability of converting csv files
