@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Upgraded to .NET 7.0
 
+### Fixed
+- Updated N26 CSV model to current format
+
 ## 0.1.0 - 2021-09-25
 ### Added
 - Inital release with capability of converting csv files

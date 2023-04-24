@@ -146,7 +146,7 @@ namespace N26ToYNAB
         {
             var memoBuilder = new StringBuilder();
 
-            memoBuilder.Append($"{transaction.TransactionType} - {transaction.Category}");
+            memoBuilder.Append($"{transaction.TransactionType} - {transaction.Reference}");
             if (transaction.IsFxTransaction())
             {
                 memoBuilder.Append(
