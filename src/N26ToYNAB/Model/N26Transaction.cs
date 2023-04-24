@@ -15,11 +15,10 @@ namespace N26ToYNAB.Model
         [Index(2)] public string AccountNumber { get; set; }
         [Index(3)] public string TransactionType { get; set; }
         [Index(4)] public string Reference { get; set; }
-        [Index(5)] public string Category { get; set; }
-        [Index(6)] public decimal Amount { get; set; }
-        [Index(7)] public decimal? AmountForeignCurrency { get; set; }
-        [Index(8)] public string ForeignCurrency { get; set; }
-        [Index(9)] public decimal? ExchangeRate { get; set; }
+        [Index(5)] public decimal Amount { get; set; }
+        [Index(6)] public decimal? AmountForeignCurrency { get; set; }
+        [Index(7)] public string ForeignCurrency { get; set; }
+        [Index(8)] public decimal? ExchangeRate { get; set; }
 
 
         /// <summary>
