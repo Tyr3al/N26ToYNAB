@@ -2,13 +2,13 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net7.0</TargetFramework>
         <Title>N26ToYNAB</Title>
         <Authors>Jan Funke - Tyr3al</Authors>
         <Description>Simple cli tool to convert N26 CSV files to YNAB compatible CSV files </Description>
         <PackageProjectUrl>https://github.com/Tyr3al/N26ToYNAB</PackageProjectUrl>
         <Company>Jan Funke - Tyr3al</Company>
-        <Version>0.1.0</Version>
+        <Version>0.2.0</Version>
     </PropertyGroup>
 
     <ItemGroup>
